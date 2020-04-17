@@ -247,7 +247,7 @@ FROM `movies`;
 -- 2- Returns the most frequent tag used for Sci-Fi movies
 SELECT
      g.tag
-	,COUNT(m.movieId) AS tag_frequency
+    ,COUNT(m.movieId) AS tag_frequency
 FROM movies AS m
 LEFT JOIN (
 		SELECT
