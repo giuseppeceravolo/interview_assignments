@@ -209,7 +209,7 @@ LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/ml-25m/genome-ta
 
 Eventually, here is how the SQL schema would look like.
 
-![SQL schema of MovieLens database](/assignments/bip/movielens/movielens_2and3_sql_schema.PNG)
+![SQL schema of MovieLens database](/bip/movielens/Exercises%202%20and%203/movielens_2and3_sql_schema.PNG)
 
 # Exercise 3
 Considering the database schema designed in the previous exercise (Exercise 2), write down a query (in SQL language or pseudo code) which:
