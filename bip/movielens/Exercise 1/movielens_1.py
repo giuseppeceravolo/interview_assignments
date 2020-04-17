@@ -14,7 +14,6 @@ import zipfile as zf
 import hashlib as hl
 import io
 import os
-import pandas as pd
 
 
 print("Start of Exercise 1.\n")
