@@ -250,12 +250,12 @@ SELECT
     ,COUNT(m.movieId) AS tag_frequency
 FROM movies AS m
 LEFT JOIN (
-		SELECT
+	SELECT
              gs.movieId
             ,gt.tag
-		FROM genome_scores AS gs
-		LEFT JOIN genome_tags AS gt
-			ON gt.tagId = gs.tagId
+	FROM genome_scores AS gs
+	LEFT JOIN genome_tags AS gt
+		ON gt.tagId = gs.tagId
 		) AS g
 	ON g.movieId = m.movieId
 WHERE m.scifi = 1
