@@ -251,7 +251,7 @@ SELECT
 FROM movies AS m
 LEFT JOIN (
 		SELECT
-			 gs.movieId
+             gs.movieId
             ,gt.tag
 		FROM genome_scores AS gs
 		LEFT JOIN genome_tags AS gt
